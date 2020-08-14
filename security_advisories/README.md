@@ -18,8 +18,8 @@ Anyone with admin permissions to a repository also has admin permissions to all 
 
 
 
+**Example of security_advisories**
 
-
-![Example of security_advisories](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/security_advisories/github_advisory.PNG "Example of security_advisories")
+![Example of link](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/security_advisories/github_advisory.PNG "Example of security_advisories")
 Example of github issue:
 
