@@ -1,4 +1,6 @@
-issues:
+Issues:Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
+
+
 |Attribute|Description|
 |---------|-----------|
 |url| Link of issue in the repository|
@@ -8,7 +10,7 @@ issues:
 |events_urls| Link of the events|
 |id| Id of the issue|
 |node_id| Id of the node|
-|number| Issue number|
+|number| Issue number of the repository|
 |Title| Title of the issue|
 
 
