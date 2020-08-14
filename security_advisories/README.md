@@ -3,7 +3,7 @@ GitHub Security Advisories to privately discuss, fix, and publish information ab
 Anyone with admin permissions to a repository can create a security advisory.
 Anyone with admin permissions to a repository also has admin permissions to all security advisories in that repository. People with admin permissions to a security advisory can add collaborators, and collaborators have write permissions to the security advisory.
 
-**Attributes of GitHub Security Advisories **
+**Attributes of GitHub Security Advisories:**
 |Attribute|Description|
 |---------|-----------|
 |Title| Title of the advise (e.g., `Server-Side Request Forgery in @uppy/companion `)|
@@ -21,5 +21,5 @@ Anyone with admin permissions to a repository also has admin permissions to all 
 **Example of security_advisories**
 
 ![Example of link](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/security_advisories/github_advisory.PNG "Example of security_advisories")
-Example of github issue:
+
 
