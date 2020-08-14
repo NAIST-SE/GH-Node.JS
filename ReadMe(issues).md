@@ -1,3 +1,7 @@
+issues:
+|Attribute|Description|
+|---------|-----------|
+|url| The link of the repository|
 Example of github issue:
 ```
 {
