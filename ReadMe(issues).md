@@ -1,4 +1,4 @@
-
+Example of github issue:
 ```
 {
     "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19",
