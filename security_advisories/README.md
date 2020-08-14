@@ -1,3 +1,5 @@
+
+![Alt text](security_advisories/github_advisory.PNG "Example of security_advisories")
 Example of github issue:
 ```
 {
