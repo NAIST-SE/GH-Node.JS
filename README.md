@@ -1,4 +1,4 @@
-# npmDependencyEcosystemDatasets
+# The Node.js Dependency Ecosystem Datasets
 
 ## Dataset structure
 
