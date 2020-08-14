@@ -1,5 +1,5 @@
 
-![Alt text](security_advisories/github_advisory.PNG "Example of security_advisories")
+![Example of security_advisories](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/security_advisories/github_advisory.PNG "Example of security_advisories")
 Example of github issue:
 ```
 {
