@@ -5,6 +5,12 @@ issues:
 |repository_url| Link of the respository|
 |labels_url| Link of the labels|
 |comments_url| Link of comments|
+|events_urls| Link of the events|
+|id| Id of the issue|
+|node_id| Id of the node|
+|number| Issue number|
+|Title| Title of the issue|
+
 
 
 Example of github issue:
