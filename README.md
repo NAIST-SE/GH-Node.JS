@@ -4,8 +4,8 @@
 
 ```
 📁 /
-├─ 📁 repository
-├─ 📁 dependency_history
+├─ 📁 repositories
+├─ 📁 dependencies_history
 ├─ 📁 issues
 ├─ 📁 pull_requests
 ├─ 📁 contributors
