@@ -33,7 +33,7 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 |events_url| List of events url|
 |received_events_url| List of received events url|
 |type| User account type|
-|site_admin| Status of site_admin (Boolean True or False)|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
 
 **Lables attributes:**
 |Attribute|Description|
@@ -45,6 +45,77 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 |color| Color of the label|
 |default| Status of Label (Boolean True or False)|
 |description|Description of the label|
+
+
+**Assignee attributes:**
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url||
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
+
+
+**Assignees attributes:**
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url||
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
+
+
+**Issue status attributes:**
+|Attribute|Description|
+|---------|-----------|
+|State| Current state of the issue (e.g., `open` or `closed`)|
+|locked| Issue fixing status (e.g., `True` or `False`)|
+|milestone| milestone of the issue|
+|comments| Comments on the issue|
+|created_at| Date of creation of the issue|
+|updated_at| Date of updating the issue|
+|closed_at| Date of closing the issue|.
+|author_association| Name of author who is associated with the issue|
+|active_lock_reason| Reason of the active lock of the issue|
+|body| Description of the issue|
+|performed_via_github_app| Way of reporting the issue|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
