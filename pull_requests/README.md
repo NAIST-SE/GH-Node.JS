@@ -1,50 +1,211 @@
-Example of github issue:
+# Pull Request
+
+Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
+
+### Issue attributes:
+
+|Attribute|Description|
+|---------|-----------|
+|url| Link of issue in the repository|
+|repository_url| Link of the respository|
+|labels_url| Link of the labels|
+|comments_url| Link of comments|
+|events_urls| Link of the events|
+|id| Id of the issue|
+|node_id| Id of the node|
+|number| Issue number of the repository|
+|Title| Title of the issue|
+
+Example of github pull request:
 ```
 {
-    "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19",
-    "repository_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter",
-    "labels_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19/labels{/name}",
-    "comments_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19/comments",
-    "events_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19/events",
-    "html_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter/issues/19",
-    "id": 174786546,
-    "node_id": "MDU6SXNzdWUxNzQ3ODY1NDY=",
-    "number": 19,
-    "title": "if the target folder is not existing, the file can't be written",
+  "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18",
+  "id": 62350233,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NjIzNTAyMzM=",
+  "html_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter/pull/18",
+  "diff_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter/pull/18.diff",
+  "patch_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter/pull/18.patch",
+  "issue_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/18",
+  "number": 18,
+  "state": "open",
+  "locked": false,
+  "title": "Use JSHint's severity levels in checkstyle XML output",
+  "user": {
+    "login": "jorisvddonk",
+    "id": 266543,
+    "node_id": "MDQ6VXNlcjI2NjU0Mw==",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/266543?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jorisvddonk",
+    "html_url": "https://github.com/jorisvddonk",
+    "followers_url": "https://api.github.com/users/jorisvddonk/followers",
+    "following_url": "https://api.github.com/users/jorisvddonk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jorisvddonk/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jorisvddonk/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jorisvddonk/subscriptions",
+    "organizations_url": "https://api.github.com/users/jorisvddonk/orgs",
+    "repos_url": "https://api.github.com/users/jorisvddonk/repos",
+    "events_url": "https://api.github.com/users/jorisvddonk/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jorisvddonk/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "body": "JSHint uses severity levels in its reporting. Three severity levels are used: `error`, `warning` and `info`. Errors reported in checkstyle XMLs also have a severity property. Checkstyle supports four severities: `error`, `warning`, `info` and `ignore`.\n\nCurrently, gulp-jshint-xml-file-reporter's checkstyle reporter assigns the `error` severity to each issue JSHint finds, regardless of the severity of the actual issue as reported by JSHint itself. This isn't very useful, and prevents advanced use cases of the reporter in combination with a CI solution. This PR solves this.\n\nTests have been updated and verified, as well.\n",
+  "created_at": "2016-03-10T07:35:19Z",
+  "updated_at": "2016-05-03T14:52:12Z",
+  "closed_at": null,
+  "merged_at": null,
+  "merge_commit_sha": "8bdc0a19c1fabc8e741870d778865dde981c971d",
+  "assignee": null,
+  "assignees": [
+    
+  ],
+  "requested_reviewers": [
+    
+  ],
+  "requested_teams": [
+    
+  ],
+  "labels": [
+    
+  ],
+  "milestone": null,
+  "draft": false,
+  "commits_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18/commits",
+  "review_comments_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18/comments",
+  "review_comment_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/comments{/number}",
+  "comments_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/18/comments",
+  "statuses_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/statuses/ec5a04bcfe4c966462386be275592a8782b9476a",
+  "head": {
+    "label": "jorisvddonk:master",
+    "ref": "master",
+    "sha": "ec5a04bcfe4c966462386be275592a8782b9476a",
     "user": {
-      "login": "dabperceptive",
-      "id": 8057034,
-      "node_id": "MDQ6VXNlcjgwNTcwMzQ=",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/8057034?v=4",
+      "login": "jorisvddonk",
+      "id": 266543,
+      "node_id": "MDQ6VXNlcjI2NjU0Mw==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/266543?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/dabperceptive",
-      "html_url": "https://github.com/dabperceptive",
-      "followers_url": "https://api.github.com/users/dabperceptive/followers",
-      "following_url": "https://api.github.com/users/dabperceptive/following{/other_user}",
-      "gists_url": "https://api.github.com/users/dabperceptive/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/dabperceptive/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/dabperceptive/subscriptions",
-      "organizations_url": "https://api.github.com/users/dabperceptive/orgs",
-      "repos_url": "https://api.github.com/users/dabperceptive/repos",
-      "events_url": "https://api.github.com/users/dabperceptive/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/dabperceptive/received_events",
+      "url": "https://api.github.com/users/jorisvddonk",
+      "html_url": "https://github.com/jorisvddonk",
+      "followers_url": "https://api.github.com/users/jorisvddonk/followers",
+      "following_url": "https://api.github.com/users/jorisvddonk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvddonk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvddonk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvddonk/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvddonk/orgs",
+      "repos_url": "https://api.github.com/users/jorisvddonk/repos",
+      "events_url": "https://api.github.com/users/jorisvddonk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvddonk/received_events",
       "type": "User",
       "site_admin": false
     },
-    "labels": [
-      {
-        "id": 155891260,
-        "node_id": "MDU6TGFiZWwxNTU4OTEyNjA=",
-        "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/labels/bug",
-        "name": "bug",
-        "color": "fc2929",
-        "default": true,
-        "description": null
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": {
+    "repo": {
+      "id": 53490967,
+      "node_id": "MDEwOlJlcG9zaXRvcnk1MzQ5MDk2Nw==",
+      "name": "gulp-jshint-xml-file-reporter",
+      "full_name": "jorisvddonk/gulp-jshint-xml-file-reporter",
+      "private": false,
+      "owner": {
+        "login": "jorisvddonk",
+        "id": 266543,
+        "node_id": "MDQ6VXNlcjI2NjU0Mw==",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/266543?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jorisvddonk",
+        "html_url": "https://github.com/jorisvddonk",
+        "followers_url": "https://api.github.com/users/jorisvddonk/followers",
+        "following_url": "https://api.github.com/users/jorisvddonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jorisvddonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jorisvddonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jorisvddonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/jorisvddonk/orgs",
+        "repos_url": "https://api.github.com/users/jorisvddonk/repos",
+        "events_url": "https://api.github.com/users/jorisvddonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jorisvddonk/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jorisvddonk/gulp-jshint-xml-file-reporter",
+      "description": "A JSHint reporter to be used by gulp-jshint that will provide a jslint.xml that can be used by CI tools as jenkins",
+      "fork": true,
+      "url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter",
+      "forks_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/forks",
+      "keys_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/teams",
+      "hooks_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/hooks",
+      "issue_events_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/events",
+      "assignees_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/tags",
+      "blobs_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/languages",
+      "stargazers_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/stargazers",
+      "contributors_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/contributors",
+      "subscribers_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/subscribers",
+      "subscription_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/subscription",
+      "commits_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/merges",
+      "archive_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/downloads",
+      "issues_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jorisvddonk/gulp-jshint-xml-file-reporter/deployments",
+      "created_at": "2016-03-09T11:00:04Z",
+      "updated_at": "2016-03-09T11:00:05Z",
+      "pushed_at": "2016-03-10T07:27:03Z",
+      "git_url": "git://github.com/jorisvddonk/gulp-jshint-xml-file-reporter.git",
+      "ssh_url": "git@github.com:jorisvddonk/gulp-jshint-xml-file-reporter.git",
+      "clone_url": "https://github.com/jorisvddonk/gulp-jshint-xml-file-reporter.git",
+      "svn_url": "https://github.com/jorisvddonk/gulp-jshint-xml-file-reporter",
+      "homepage": "",
+      "size": 44,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master"
+    }
+  },
+  "base": {
+    "label": "lourenzo:master",
+    "ref": "master",
+    "sha": "ab94e8cd0979ff974fc5ef4f2162a9a2f4c15889",
+    "user": {
       "login": "lourenzo",
       "id": 81989,
       "node_id": "MDQ6VXNlcjgxOTg5",
@@ -64,8 +225,13 @@ Example of github issue:
       "type": "User",
       "site_admin": false
     },
-    "assignees": [
-      {
+    "repo": {
+      "id": 27784702,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyNzc4NDcwMg==",
+      "name": "gulp-jshint-xml-file-reporter",
+      "full_name": "lourenzo/gulp-jshint-xml-file-reporter",
+      "private": false,
+      "owner": {
         "login": "lourenzo",
         "id": 81989,
         "node_id": "MDQ6VXNlcjgxOTg5",
@@ -84,16 +250,109 @@ Example of github issue:
         "received_events_url": "https://api.github.com/users/lourenzo/received_events",
         "type": "User",
         "site_admin": false
-      }
-    ],
-    "milestone": null,
-    "comments": 0,
-    "created_at": "2016-09-02T15:29:13Z",
-    "updated_at": "2016-09-09T10:32:52Z",
-    "closed_at": null,
-    "author_association": "NONE",
-    "active_lock_reason": null,
-    "body": "If you have a clean task on your output folder, which removes all content and subfolders and then jshint is the first task which is running, then it can't write the output file because of a missing folder structure.\n\nWorkaround:\n\n```\ngulp.task('prepareStylecheck', function () {\n    //just create the output folder because of a reporter bug\n    return gulp.src(PATH_IN_SRC)\n        .pipe(gulp.dest(PATH_OUT_TESTRESULT));\n});\n\ngulp.task('stylecheck', ['prepareStylecheck'], function () {\n    return gulp.src(FILES_SRC)\n        .pipe(jshint())\n        .pipe(jshint.reporter('jshint-stylish'))\n        .pipe(jshint.reporter(jshintXMLReporter))\n        .on('end', jshintXMLReporter.writeFile({\n            format: 'checkstyle',\n            filePath: PATH_OUT_TESTRESULT + 'checkstyle.xml'\n        }));\n});\n```\n",
-    "performed_via_github_app": null
-  }
+      },
+      "html_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter",
+      "description": "A JSHint reporter to be used by gulp-jshint that will provide a jslint.xml that can be used by CI tools as jenkins",
+      "fork": false,
+      "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter",
+      "forks_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/forks",
+      "keys_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/teams",
+      "hooks_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/hooks",
+      "issue_events_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/events",
+      "assignees_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/tags",
+      "blobs_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/languages",
+      "stargazers_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/stargazers",
+      "contributors_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/contributors",
+      "subscribers_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/subscribers",
+      "subscription_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/subscription",
+      "commits_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/merges",
+      "archive_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/downloads",
+      "issues_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/labels{/name}",
+      "releases_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/deployments",
+      "created_at": "2014-12-09T20:05:50Z",
+      "updated_at": "2017-08-27T09:36:54Z",
+      "pushed_at": "2017-07-26T14:00:39Z",
+      "git_url": "git://github.com/lourenzo/gulp-jshint-xml-file-reporter.git",
+      "ssh_url": "git@github.com:lourenzo/gulp-jshint-xml-file-reporter.git",
+      "clone_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter.git",
+      "svn_url": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter",
+      "homepage": "",
+      "size": 386,
+      "stargazers_count": 4,
+      "watchers_count": 4,
+      "language": "JavaScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "forks_count": 6,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 4,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "forks": 6,
+      "open_issues": 4,
+      "watchers": 4,
+      "default_branch": "master"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18"
+    },
+    "html": {
+      "href": "https://github.com/lourenzo/gulp-jshint-xml-file-reporter/pull/18"
+    },
+    "issue": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/18"
+    },
+    "comments": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/18/comments"
+    },
+    "review_comments": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18/comments"
+    },
+    "review_comment": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/comments{/number}"
+    },
+    "commits": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18/commits"
+    },
+    "statuses": {
+      "href": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/statuses/ec5a04bcfe4c966462386be275592a8782b9476a"
+    }
+  },
+  "author_association": "NONE",
+  "active_lock_reason": null
+}
 ```

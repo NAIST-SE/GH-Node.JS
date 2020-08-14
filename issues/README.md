@@ -1,7 +1,7 @@
-**Issues:** 
+# Issues
 Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
-**Issue attributes:**
+### Issue attributes:
 
 |Attribute|Description|
 |---------|-----------|
