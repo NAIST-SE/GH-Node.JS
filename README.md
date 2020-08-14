@@ -5,6 +5,7 @@
 ```
 📁 /
 ├─ 📁 repositories
+├─ 📁 repositories_info
 ├─ 📁 dependencies_history
 ├─ 📁 issues
 ├─ 📁 pull_requests
