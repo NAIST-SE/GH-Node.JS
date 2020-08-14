@@ -1,4 +1,5 @@
-Issues: Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
+**Issues:** 
+Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
 **Issue attributes:**
 
@@ -14,7 +15,7 @@ Issues: Issues are a great way to keep track of tasks, enhancements, and bugs fo
 |number| Issue number of the repository|
 |Title| Title of the issue|
 
-User attribute:
+**User attribute:**
 |Attribute|Description|
 |---------|-----------|
 |login| Login name|
@@ -33,6 +34,21 @@ User attribute:
 |received_events_url| List of received events url|
 |type| User account type|
 |site_admin| Status of site_admin (Boolean True or False)|
+
+**Lables attributes:**
+|Attribute|Description|
+|---------|-----------|
+|id| Id of the label|
+|node_id| `node_id` of the label|
+|url|Lable url|
+|name| Label of the issue (e.g., bug)|
+|color| Color of the label|
+|default| Status of Label (Boolean True or False)|
+|description|Description of the label|
+
+
+
+
 
 
 
