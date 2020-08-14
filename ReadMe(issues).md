@@ -1,7 +1,12 @@
 issues:
 |Attribute|Description|
 |---------|-----------|
-|url| The link of the repository|
+|url| Link of issue in the repository|
+|repository_url| Link of the respository|
+|labels_url| Link of the labels|
+|comments_url| Link of comments|
+
+
 Example of github issue:
 ```
 {
