@@ -5,17 +5,19 @@ Information repositories are created to store project information in a centraliz
 |Attribute|Description|
 |---------|-----------|
 |github_url| the url of the repository|
-|is_npm_package| Flag to ensure whether its a npm package (e.g., Boolean `True` or `False`)|
-|npm_info| The information of the npm package (e.g., ``` "_cached":true,
-    "_contentLength":3382,
-    "_from":".",
-    "_id":"jsdv@0.0.2-7",
-    "_npmUser":"ahineya <deadswallow@gmail.com>",
-    "_npmVersion":"1.3.24",
-    "_rev":"1-738673dad47d2df6cce1cca6416c8d2d",
-    "author":"Pavel Evsegneev <deadswallow@gmail.com> (http://github.com/Ahineya/)",
-    "bugs":{
-      "url":"https://github.com/Ahineya/jsdv/issues"```)|
+|is_npm_package| Flag to ensure the type of repository (e.g., Boolean `True` or `False`)|
+|npm_info| The information of the repository|
+|description| The description of the repository|
+|homepage| The home page of the repository|
+|name| The name of the repository|
+|readmeFilename| The readMe file of the repository|
+|repository| The git url of the repository|
+|time| The time tracking of the repository|
+|version| The current version of the repository|
+|versions| The version history of the repository|
+|owner| The owner name of the repository|
+|repo_name| The name of the repository|
+
 
 
 
