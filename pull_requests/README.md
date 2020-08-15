@@ -18,7 +18,25 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |locked| The locking status of the pull request (e.g., Boolean `True` or `False`)
 |title| The `title` of the pull request|
 
-
+**User attribute:**
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url||
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
 
 Example of github pull request:
 ```
