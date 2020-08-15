@@ -1,6 +1,15 @@
 # Dependencies history
 Using the dependency graph, you can see the packages your project depends on and the repositories that depend on it. In addition, you can see any vulnerabilities detected in its dependencies.
 
+### Semantic versioning:
+
+![Example](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/dependencies_history/semver.png "Example of semantic virsioning")
+
+### npm dependencies history attributes:
+
+|Attribute|Description|
+|---------|-----------|
+|
 
 ### Example of dependencies history:
 ```
