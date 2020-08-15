@@ -1,5 +1,5 @@
 # Dependencies history
-Dependencies_history is the folder that contains the infor-mation  related  to  the  dependency  changes  over  time  forthe package. Based on the Software Universe Graph, we track and list all repository changes. 
+Dependencies_history is the folder that contains the information  related  to  the  dependency  changes  over  time  forthe package. Based on the Software Universe Graph, we track and list all repository changes. 
 
 ### Semantic versioning:
 
