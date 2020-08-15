@@ -19,13 +19,13 @@ Acquired   by   the   largest   social   coding   platform GitHub in 2020, the N
 ```
 
 ### Contents:
-  1. [repositories](https://tinyurl.com/yynovv2w) 
-  2. [repositories_info](https://tinyurl.com/yy2jf64y)
-  3. [dependencies_history](https://tinyurl.com/y5pf2xr6)
-  4. [issues](https://tinyurl.com/y2s3ok3w)
-  5. [pull_requests](https://tinyurl.com/y4wwdsv4)
-  6. [contributors](https://tinyurl.com/y5za6ols)
-  7. [security_advisories](https://tinyurl.com/y3h3uy6k)
+  1. [repositories](https://tinyurl.com/yynovv2w): is the folder that contains the git repositories.
+  2. [repositories_info](https://tinyurl.com/yy2jf64y): is the folder that contains the basic information of a git repository. 
+  3. [dependencies_history](https://tinyurl.com/y5pf2xr6): is the folder that contains the information related to the dependency changes over time for the package.
+  4. [issues](https://tinyurl.com/y2s3ok3w): is the folder that contains the issues for the package.
+  5. [pull_requests](https://tinyurl.com/y4wwdsv4): is the folder that contains all the changes information collected from the GitHub API.
+  6. [contributors](https://tinyurl.com/y5za6ols): is the folder that contains contributor information collected from the GitHub API.
+  7. [security_advisories](https://tinyurl.com/y3h3uy6k): is the folder that contains security advisories that taken from the GitHub Security Advisory database.
 
 
 ### Authors:
