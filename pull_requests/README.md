@@ -17,6 +17,25 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |state| The current state of pull request (e.g. `open` or `close`)
 |locked| The locking status of the pull request (e.g., Boolean `True` or `False`)
 |title| The `title` of the pull request|
+|body| Body of the pull request|
+|created_at| Date of creating the pull request|
+|updated_at| Date of updating the pull request|
+|closed_at| Date of closing the pull request|
+|merged_at| Date of merging the pull request|
+|merge_commit_sha| The SHA of the test merge commit|
+|assignee| The person who assign|
+|assignees| The list of people who assigned|
+|requested_reviewers| The list of requested reviewers|
+|requested_teams| The requested_teams|
+|labels| Labels of the pull request|
+|milestone| The milestone of the pull request|
+|draft| The draft of the pull request|
+|commits_url| The `url` of the commits|
+|review_comments_url| The `url` of the review_comments|
+|review_comment_url| Each `url` of the review_comment|
+|comments_url| The comments url of the pull request|
+|statuses_url| The status url of the pull request|
+
 
 ### User attribute:
 
