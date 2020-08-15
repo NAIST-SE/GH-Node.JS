@@ -1,4 +1,5 @@
 # Title: The Node.js Dependency Ecosystem in GitHub:Social, Technical, and Documentation Aspects
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3986016.svg)](https://doi.org/10.5281/zenodo.3986016)
 
 This is a [replication package](https://github.com/NAIST-SE/GH-Node.JS.git) for the paper **The Node.js Dependency Ecosystem in GitHub:Social, Technical, and Documentation Aspects**.
 
