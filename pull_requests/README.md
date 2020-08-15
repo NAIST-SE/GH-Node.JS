@@ -18,7 +18,8 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |locked| The locking status of the pull request (e.g., Boolean `True` or `False`)
 |title| The `title` of the pull request|
 
-**User attribute:**
+###User attribute:
+
 |Attribute|Description|
 |---------|-----------|
 |login| Login name|
