@@ -48,7 +48,7 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |html_url| Html url|
 |followers_url| List of followers url|
 |following_url| List of followings url|
-|gists_url||
+|gists_url|forked and cloned url|
 |starred_url| List of starred url|
 |subscriptions_url| list of subscription url|
 |organizations_url| Owners organizations url|
