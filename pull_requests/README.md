@@ -37,7 +37,7 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |statuses_url| The status url of the pull request|
 
 
-### User attribute:
+### User attributes:
 
 |Attribute|Description|
 |---------|-----------|
@@ -57,6 +57,33 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |received_events_url| List of received events url|
 |type| User account type|
 |site_admin| Status of site_admin (Boolean `True` or `False`)|
+
+
+### repository attributes:
+
+|Attribute|Description|
+|---------|-----------|
+|id| `id` of the repository|
+|node_id| `node_id` of the repository|
+|name| `name` of the repository|
+|full_name| `full_name` of the repository|
+|private| Type of the repository (e.g., Boolean `True` or `False`)|
+|html_url| html url of the repository|
+|description| Description of the repository|
+|fork| fork status of the repository (e.g., Boolean `True` or `False` )|
+|forks_url| `url` of the fork repository|
+|keys_url| `key` of the repository|
+|collaborators_url| the collaborators url of the repository|
+|teams_url| The url of the teams|
+|hooks_url| The hooks url of the repository|
+|issue_events_url| The issue events url of the repository|
+|events_url| The events url of the repository|
+|assignees_url| The assignees url of the repository|
+|branches_url| The branches url of the repository|
+|tags_url| The tags url of the repository|
+
+
+
 
 ### Example of github pull request:
 ```
