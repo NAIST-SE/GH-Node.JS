@@ -1,5 +1,5 @@
 # Dependencies history
-Using the dependency graph, you can see the packages your project depends on and the repositories that depend on it. In addition, you can see any vulnerabilities detected in its dependencies.
+Dependencies_history is the folder that contains the infor-mation  related  to  the  dependency  changes  over  time  forthe package. Based on the Software Universe Graph, we track and list all repository changes. 
 
 ### Semantic versioning:
 
