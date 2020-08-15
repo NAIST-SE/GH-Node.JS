@@ -58,7 +58,7 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 |type| User account type|
 |site_admin| Status of site_admin (Boolean `True` or `False`)|
 
-Example of github pull request:
+### Example of github pull request:
 ```
 {
   "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/pulls/18",
