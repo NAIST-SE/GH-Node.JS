@@ -1,14 +1,6 @@
 # Contributors
-When you're making contributions to projects all over GitHub and they like to show everyone what you're doing. Whenever you commit to a project's default branch or the gh-pages branch, open an issue, or propose a Pull Request, GitHub will count that as a contribution.
+Contributor is the folder that contains contributor infor-mation  collected  from  the  GitHub  API.  Note  that  thisinformation  is  not  the  same  as  the  author  informationcontained in the contributing.md file.
 
-### Why contribute to open source projects?
-
-There are many great reasons to contribute to open source projects:
-    It builds your resume by demonstrating that you can collaborate with others on code.
-    It gives you practice with Git and GitHub, which is a valuable data science skill.
-    It helps you to build relationships in the open source community.
-    It feels good to give back to a project that you use!
-    
 ### Contributors attributes:
 ### User attribute:
 |Attribute|Description|
