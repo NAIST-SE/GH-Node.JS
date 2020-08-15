@@ -1,20 +1,24 @@
 # Pull Request
 
-Issues are a great way to keep track of tasks, enhancements, and bugs for a project. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-### Issue attributes:
+### Pull Request attributes:
 
 |Attribute|Description|
 |---------|-----------|
-|url| Link of issue in the repository|
-|repository_url| Link of the respository|
-|labels_url| Link of the labels|
-|comments_url| Link of comments|
-|events_urls| Link of the events|
-|id| Id of the issue|
-|node_id| Id of the node|
-|number| Issue number of the repository|
-|Title| Title of the issue|
+|url| `url` of the pull request|
+|id| `id` of the pull request|
+|node_id| `node_id` of the pull request|
+|html_url| `html` link of the pull request|
+|diff_url|`diff` operation `link` of the pull request|
+|patch_url| `patch` link of the pull request|
+|issue_url| `issue` link of the pull request|
+|number| The pull request number|
+|state| The current state of pull request (e.g. `open` or `close`)
+|locked| The locking status of the pull request (e.g., Boolean `True` or `False`)
+|title| The `title` of the pull request|
+
+
 
 Example of github pull request:
 ```
