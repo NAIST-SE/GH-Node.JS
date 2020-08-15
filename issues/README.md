@@ -14,84 +14,6 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 |node_id| Id of the node|
 |number| Issue number of the repository|
 |Title| Title of the issue|
-
-**User attribute:**
-|Attribute|Description|
-|---------|-----------|
-|login| Login name|
-|id| Login id|
-|avatar_url| Personal url for to represent yourself on the Internet|
-|url| Personal account url|
-|html_url| Html url|
-|followers_url| List of followers url|
-|following_url| List of followings url|
-|gists_url||
-|starred_url| List of starred url|
-|subscriptions_url| list of subscription url|
-|organizations_url| Owners organizations url|
-|repos_url| List of repos url|
-|events_url| List of events url|
-|received_events_url| List of received events url|
-|type| User account type|
-|site_admin| Status of site_admin (Boolean `True` or `False`)|
-
-**Lables attributes:**
-|Attribute|Description|
-|---------|-----------|
-|id| Id of the label|
-|node_id| `node_id` of the label|
-|url|Lable url|
-|name| Label of the issue (e.g., bug)|
-|color| Color of the label|
-|default| Status of Label (Boolean True or False)|
-|description|Description of the label|
-
-
-**Assignee attributes:**
-|Attribute|Description|
-|---------|-----------|
-|login| Login name|
-|id| Login id|
-|avatar_url| Personal url for to represent yourself on the Internet|
-|url| Personal account url|
-|html_url| Html url|
-|followers_url| List of followers url|
-|following_url| List of followings url|
-|gists_url||
-|starred_url| List of starred url|
-|subscriptions_url| list of subscription url|
-|organizations_url| Owners organizations url|
-|repos_url| List of repos url|
-|events_url| List of events url|
-|received_events_url| List of received events url|
-|type| User account type|
-|site_admin| Status of site_admin (Boolean `True` or `False`)|
-
-
-**Assignees attributes:**
-|Attribute|Description|
-|---------|-----------|
-|login| Login name|
-|id| Login id|
-|avatar_url| Personal url for to represent yourself on the Internet|
-|url| Personal account url|
-|html_url| Html url|
-|followers_url| List of followers url|
-|following_url| List of followings url|
-|gists_url||
-|starred_url| List of starred url|
-|subscriptions_url| list of subscription url|
-|organizations_url| Owners organizations url|
-|repos_url| List of repos url|
-|events_url| List of events url|
-|received_events_url| List of received events url|
-|type| User account type|
-|site_admin| Status of site_admin (Boolean `True` or `False`)|
-
-
-**Issue status attributes:**
-|Attribute|Description|
-|---------|-----------|
 |State| Current state of the issue (e.g., `open` or `closed`)|
 |locked| Issue fixing status (e.g., `True` or `False`)|
 |milestone| milestone of the issue|
@@ -103,6 +25,80 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 |active_lock_reason| Reason of the active lock of the issue|
 |body| Description of the issue|
 |performed_via_github_app| Way of reporting the issue|
+
+### User attribute:
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url||
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
+
+### Lables attributes:
+|Attribute|Description|
+|---------|-----------|
+|id| Id of the label|
+|node_id| `node_id` of the label|
+|url|Lable url|
+|name| Label of the issue (e.g., bug)|
+|color| Color of the label|
+|default| Status of Label (Boolean True or False)|
+|description|Description of the label|
+
+
+### Assignee attributes:
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url|forked and cloned repository url|
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
+
+
+### Assignees attributes:
+|Attribute|Description|
+|---------|-----------|
+|login| Login name|
+|id| Login id|
+|avatar_url| Personal url for to represent yourself on the Internet|
+|url| Personal account url|
+|html_url| Html url|
+|followers_url| List of followers url|
+|following_url| List of followings url|
+|gists_url||
+|starred_url| List of starred url|
+|subscriptions_url| list of subscription url|
+|organizations_url| Owners organizations url|
+|repos_url| List of repos url|
+|events_url| List of events url|
+|received_events_url| List of received events url|
+|type| User account type|
+|site_admin| Status of site_admin (Boolean `True` or `False`)|
+
 
 
 
