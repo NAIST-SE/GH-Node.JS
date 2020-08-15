@@ -1,4 +1,4 @@
-# repositories information
+# Repositories information
 Information repositories are created to store project information in a centralized public location to provide easy access for community members.
 
 ### Repository attributes:
