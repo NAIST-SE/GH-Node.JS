@@ -46,7 +46,7 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 |type| User account type|
 |site_admin| Status of site_admin (Boolean `True` or `False`)|
 
-### Lables attributes:
+### Labels attributes:
 |Attribute|Description|
 |---------|-----------|
 |id| Id of the label|
