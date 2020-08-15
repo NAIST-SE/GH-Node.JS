@@ -101,36 +101,7 @@ Issues are a great way to keep track of tasks, enhancements, and bugs for a proj
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Example of github issue:
+### Example of github issue:
 ```
 {
     "url": "https://api.github.com/repos/lourenzo/gulp-jshint-xml-file-reporter/issues/19",
