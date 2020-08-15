@@ -8,7 +8,7 @@ Acquired   by   the   largest   social   coding   platformGitHub in 2020, the No
 
 ```
 📁 /
-├─ 📁 repositories  [libraries.io](https://zenodo.org/record/1196312/files/Libraries.io-open-data-1.2.0.tar.gz)
+├─ 📁 repositories 
 ├─ 📁 repositories_info
 ├─ 📁 dependencies_history
 ├─ 📁 issues
