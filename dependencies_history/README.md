@@ -6,8 +6,8 @@ Using the dependency graph, you can see the packages your project depends on and
 ![Example](https://github.com/NAIST-SE/npmDependencyEcosystemDatasets/blob/master/dependencies_history/semver.png "Example of semantic virsioning")
 
 ```
-    ~version "Approximately equivalent to version" See npm semver - Tilde Ranges & semver (7)
-    ^version "Compatible with version" See npm semver - Caret Ranges & semver (7)
+    ~version "Approximately equivalent to version" See npm semver - Tilde Ranges & semver 
+    ^version "Compatible with version" See npm semver - Caret Ranges & semver 
     version Must match version exactly
     >version Must be greater than version
     >=version etc
