@@ -32,6 +32,8 @@ Acquired  by  the  largest   social   coding   platform GitHub in 2020, the Node
   1. Download the dataset from: [link]( https://zenodo.org/record/3986016)
   2. Extract the files.
   3. Clone this repository into your userhome folder in the system
+  
+  
   ```git clone https://github.com/NAIST-SE/GH-Node.JS.git```
   3. Open `Jupyter Notebook`.
   4. Run the **example_query_1.py** and **example_query_2.py** on the dataset.
