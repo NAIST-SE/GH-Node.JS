@@ -1,6 +1,6 @@
 # Pull Request
 
-Pull_requests is the folder that contain all the changes pushed by contributor to a branch in a repository on GitHub. Once a pull request is opened, we can discuss and review the potential changes with collaborators and add follow-up commits before our changes are merged into the base branch.
+Pull_requests is the folder that contain all the changes pushed by contributor to a branch in a repository on GitHub. Once a pull request is opened, we can discuss and review the potential changes with collaborators and add follow-up commits before our changes are merged into the base branch. The JSON information is directly taken from the GitHub API.
 
 ### Pull Request attributes:
 
