@@ -1,4 +1,5 @@
 # Repositories information
+repositories_info is  the  folder  that  contains  the  basic information of a git repository
 Information repositories are created to store project information in a centralized public location to provide easy access for community members.
 
 ### Repository attributes:
