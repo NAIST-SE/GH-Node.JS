@@ -1,5 +1,5 @@
 # Contributors
-Contributor is the folder that contains contributor infor-mation  collected  from  the  GitHub  API.  Note  that  thisinformation  is  not  the  same  as  the  author  informationcontained in the contributing.md file.
+Contributor is the folder that contains contributor infor-mation  collected  from  the  GitHub  API.  Note  that  this information  is  not  the  same  as  the  author  information contained in the contributing.md file.
 
 ### Contributors attributes:
 ### User attribute:
