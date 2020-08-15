@@ -8,7 +8,7 @@ Acquired   by   the   largest   social   coding   platformGitHub in 2020, the No
 
 ```
 📁 /
-├─ 📁 repositories
+├─ 📁 repositories [Knotter](https://github.com/rosinality/knotter)
 ├─ 📁 repositories_info
 ├─ 📁 dependencies_history
 ├─ 📁 issues
