@@ -40,7 +40,7 @@ Acquired   by   the   largest   social   coding   platform GitHub in 2020, the N
 ### Authors:
   1. [Bodin Chinthanet](https://bchinthanet.com/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
   2. [Syful Islam](https://syful-is.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
-  3. [Raula Gaikovina Kula](https://naist-se.github.io/contents.html#members), Nara Institute of Science and Technology (NAIST), Nara, Japan.
+  3. [Raula Gaikovina Kula](https://raux.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
   4. [Christoph Treude](http://ctreude.ca/), University of Adelaide, Adelaide, Australia.
   5. [Takashi Ishio](https://takashi-ishio.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
   6. [Hideaki Hata](https://hideakihata.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
