@@ -34,7 +34,7 @@ Acquired   by   the   largest   social   coding   platform GitHub in 2020, the N
   3. Clone this repository into your userhome folder in the system
   ```git clone https://github.com/NAIST-SE/GH-Node.JS.git```
   3. Open `Jupyter Notebook`.
-  4. Run the **example_query_1.py** and **example_query_2.py** on the dataset.
+  4. Run the **[example_query_1.ipynb](https://github.com/NAIST-SE/GH-Node.JS/blob/master/example_query_1.ipynb)** and **[example_query_2.ipynb](https://github.com/NAIST-SE/GH-Node.JS/blob/master/example_query_2.ipynb)** on the dataset.
 
 
 ### Authors:
